@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 suggestion = "Dessert: iCe Cream"
                 imageResId = R.drawable.icecream
             } else {
-                suggestion = "Invalid input! Please enter a valid time of he day."
+                suggestion = "Invalid input! Please enter a valid time of the day."
                 imageResId = 0
             }
 
