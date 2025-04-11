@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MealSuggestionApp</string>
+    <string name="enter_time_of_day_e_g_morning_afternoon">Enter time of day (e.g., Morning, Afternoon</string>
+    <string name="meal_suggestion">Meal Suggestion</string>
+    <string name="meal_suggestion_app">Meal Suggestion App</string>
+    <string name="reset">Reset</string>
+    <string name="todo">TODO</string>
+    <style name="Base.Theme.MealSuggestionApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MealSuggestionApp" parent="Base.Theme.MealSuggestionApp"/>
+</resources>

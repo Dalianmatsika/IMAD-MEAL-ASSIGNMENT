@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable background
+drawable cake
+drawable eggs
+drawable fruits
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable icecream
+drawable pasta
+drawable sandwich
+id mealImage
+id mealSuggestion
+id resetButton
+id suggestButton
+id timeInput
+id titleText
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string enter_time_of_day_e_g_morning_afternoon
+string meal_suggestion
+string meal_suggestion_app
+string reset
+string todo
+style Base.Theme.MealSuggestionApp
+style Theme.MealSuggestionApp
+xml backup_rules
+xml data_extraction_rules

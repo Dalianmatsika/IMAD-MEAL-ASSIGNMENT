@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.mealsuggestionapp.MainActivityTest" tests="1" failures="1" errors="0" skipped="0" time="8.033" timestamp="2025-04-10T07:25:54" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_6_Pro_API_35(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="testButtonClickUpdatesTextView" classname="com.example.mealsuggestionapp.MainActivityTest" time="4.444">
+    <failure>org.junit.ComparisonFailure: expected:&lt;[Invalid input! Please enter a valid time of he day.]&gt; but was:&lt;[Breakfast: Eggs]&gt;
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at com.example.mealsuggestionapp.MainActivityTest.testButtonClickUpdatesTextView$lambda$0(MainActivityTest.kt:36)
+at com.example.mealsuggestionapp.MainActivityTest.$r8$lambda$dbQN1tTT2GuXSQjIsxeOOhPrCdo(Unknown Source:0)
+at com.example.mealsuggestionapp.MainActivityTest$$ExternalSyntheticLambda0.perform(Unknown Source:2)
+at androidx.test.core.app.ActivityScenario.lambda$onActivity$2$androidx-test-core-app-ActivityScenario(ActivityScenario.java:794)
+at androidx.test.core.app.ActivityScenario$$ExternalSyntheticLambda2.run(Unknown Source:4)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2612)
+at android.os.Handler.handleCallback(Handler.java:959)
+at android.os.Handler.dispatchMessage(Handler.java:100)
+at android.os.Looper.loopOnce(Looper.java:232)
+at android.os.Looper.loop(Looper.java:317)
+at android.app.ActivityThread.main(ActivityThread.java:8705)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)</failure>
+  </testcase>
+</testsuite>

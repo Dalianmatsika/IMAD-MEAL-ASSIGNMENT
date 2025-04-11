@@ -1,0 +1,73 @@
+# 2025-04-10T07:25:54.890Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "com.example.mealsuggestionapp"
+    test_method: "testButtonClickUpdatesTextView"
+    start_time {
+      seconds: 1744269946
+      nanos: 783000000
+    }
+    end_time {
+      seconds: 1744269951
+      nanos: 214000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "org.junit.ComparisonFailure: expected:<[Invalid input! Please enter a valid time of he day.]> but was:<[Breakfast: Eggs]>\nat org.junit.Assert.assertEquals(Assert.java:117)\nat org.junit.Assert.assertEquals(Assert.java:146)\nat com.example.mealsuggestionapp.MainActivityTest.testButtonClickUpdatesTextView$lambda$0(MainActivityTest.kt:36)\nat com.example.mealsuggestionapp.MainActivityTest.$r8$lambda$dbQN1tTT2GuXSQjIsxeOOhPrCdo(Unknown Source:0)\nat com.example.mealsuggestionapp.MainActivityTest$$ExternalSyntheticLambda0.perform(Unknown Source:2)\nat androidx.test.core.app.ActivityScenario.lambda$onActivity$2$androidx-test-core-app-ActivityScenario(ActivityScenario.java:794)\nat androidx.test.core.app.ActivityScenario$$ExternalSyntheticLambda2.run(Unknown Source:4)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)\nat java.util.concurrent.FutureTask.run(FutureTask.java:264)\nat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2612)\nat android.os.Handler.handleCallback(Handler.java:959)\nat android.os.Handler.dispatchMessage(Handler.java:100)\nat android.os.Looper.loopOnce(Looper.java:232)\nat android.os.Looper.loop(Looper.java:317)\nat android.app.ActivityThread.main(ActivityThread.java:8705)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)"
+    error_type: "org.junit.ComparisonFailure"
+    stack_trace: "org.junit.ComparisonFailure: expected:<[Invalid input! Please enter a valid time of he day.]> but was:<[Breakfast: Eggs]>\nat org.junit.Assert.assertEquals(Assert.java:117)\nat org.junit.Assert.assertEquals(Assert.java:146)\nat com.example.mealsuggestionapp.MainActivityTest.testButtonClickUpdatesTextView$lambda$0(MainActivityTest.kt:36)\nat com.example.mealsuggestionapp.MainActivityTest.$r8$lambda$dbQN1tTT2GuXSQjIsxeOOhPrCdo(Unknown Source:0)\nat com.example.mealsuggestionapp.MainActivityTest$$ExternalSyntheticLambda0.perform(Unknown Source:2)\nat androidx.test.core.app.ActivityScenario.lambda$onActivity$2$androidx-test-core-app-ActivityScenario(ActivityScenario.java:794)\nat androidx.test.core.app.ActivityScenario$$ExternalSyntheticLambda2.run(Unknown Source:4)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)\nat java.util.concurrent.FutureTask.run(FutureTask.java:264)\nat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2612)\nat android.os.Handler.handleCallback(Handler.java:959)\nat android.os.Handler.dispatchMessage(Handler.java:100)\nat android.os.Looper.loopOnce(Looper.java:232)\nat android.os.Looper.loop(Looper.java:317)\nat android.app.ActivityThread.main(ActivityThread.java:8705)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\RC_Student_lab\\AndroidStudioProjects\\MealSuggestionApp\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_6_Pro_API_35(AVD) - 15\\logcat-com.example.mealsuggestionapp.MainActivityTest-testButtonClickUpdatesTextView.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\RC_Student_lab\\AndroidStudioProjects\\MealSuggestionApp\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_6_Pro_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\RC_Student_lab\\AndroidStudioProjects\\MealSuggestionApp\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_6_Pro_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\RC_Student_lab\\AndroidStudioProjects\\MealSuggestionApp\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_6_Pro_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\RC_Student_lab\\AndroidStudioProjects\\MealSuggestionApp\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_6_Pro_API_35(AVD) - 15\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

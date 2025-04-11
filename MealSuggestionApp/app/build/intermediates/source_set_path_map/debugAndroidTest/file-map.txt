@@ -1,0 +1,6 @@
+com.example.mealsuggestionapp.test.app-core-1.6.1-0 C:\Users\RC_Student_lab\.gradle\caches\transforms-3\25b4d402c85bc7257db9be9f06adcdb4\transformed\core-1.6.1\res
+com.example.mealsuggestionapp.test.app-tracing-1.2.0-1 C:\Users\RC_Student_lab\.gradle\caches\transforms-3\74cfc2da4b586468edab0eba7300c5e0\transformed\tracing-1.2.0\res
+com.example.mealsuggestionapp.test.app-androidTest-2 C:\Users\RC_Student_lab\AndroidStudioProjects\MealSuggestionApp\app\build\generated\res\resValues\androidTest\debug
+com.example.mealsuggestionapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\RC_Student_lab\AndroidStudioProjects\MealSuggestionApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.mealsuggestionapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\RC_Student_lab\AndroidStudioProjects\MealSuggestionApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.mealsuggestionapp.test.app-merged_res-5 C:\Users\RC_Student_lab\AndroidStudioProjects\MealSuggestionApp\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,122 @@
+04-10 07:25:19.382  5761  5776 I TestRunner: started: testButtonClickUpdatesTextView(com.example.mealsuggestionapp.MainActivityTest)
+04-10 07:25:19.423  5761  5776 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-10 07:25:19.464   663  1818 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10214, packageName = null, attributionTag = null, token = android.os.Binder@e87fe71, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-10 07:25:19.518  1453  1453 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=24, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.mealsuggestionapp/.MainActivity }
+04-10 07:25:19.558   456   456 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+04-10 07:25:19.570  1453  1453 W SplitSelectStateCtor: Missing session instanceIds
+04-10 07:25:19.571  1453  1453 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-10 07:25:19.603  2827  2882 D SplashScreenView: Build android.window.SplashScreenView{9748ae1 V.E...... ......ID 0,0-0,0}
+04-10 07:25:19.603  2827  2882 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-10 07:25:19.603  2827  2882 D SplashScreenView: Branding: view: android.view.View{3f5e006 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-10 07:25:19.685   507   559 W IPCThreadState: Sending oneway calls to frozen process.
+04-10 07:25:19.783  1453  1864 D EGL_emulation: app_time_stats: avg=1379.46ms min=217.24ms max=3471.73ms count=3
+04-10 07:25:19.833  5761  5761 W alsuggestionapp: Verification of void androidx.activity.ComponentActivity.initializeViewTreeOwners() took 105.145ms (532.59 bytecodes/s) (3320B approximate peak alloc)
+04-10 07:25:19.946   663   834 W system_server: Long monitor contention with owner android.anim (727) at void com.android.server.wm.WindowSurfacePlacer$Traverser.run()(WindowSurfacePlacer.java:58) waiters=0 in android.app.ActivityTaskManager$RootTaskInfo com.android.server.wm.ActivityTaskManagerService.getRootTaskInfo(int, int) for 113ms
+04-10 07:25:20.055  1453  1864 D EGL_emulation: app_time_stats: avg=100686.61ms min=7.35ms max=201365.86ms count=2
+04-10 07:25:20.314   663   727 W system_server: Long monitor contention with owner binder:663_4 (834) at int com.android.server.wm.WindowManagerService.relayoutWindowInner(com.android.server.wm.Session, android.view.IWindow, android.view.WindowManager$LayoutParams, int, int, int, int, int, int, android.window.ClientWindowFrames, android.util.MergedConfiguration, android.view.SurfaceControl, android.view.InsetsState, android.view.InsetsSourceControl$Array, android.os.Bundle, android.view.WindowRelayoutResult)(WindowManagerService.java:2736) waiters=0 in void com.android.server.wm.WindowAnimator.lambda$new$1(long) for 167ms
+04-10 07:25:20.474  1453  1453 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-10 07:25:20.478  1453  1453 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-10 07:25:20.479  5761  5761 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+04-10 07:25:20.579  5761  5761 D LifecycleMonitor: Lifecycle status change: com.example.mealsuggestionapp.MainActivity@67b0a83 in: PRE_ON_CREATE
+04-10 07:25:20.585  5761  5761 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-10 07:25:20.949  5761  5761 W alsuggestionapp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+04-10 07:25:21.550  5761  5761 D LifecycleMonitor: Lifecycle status change: com.example.mealsuggestionapp.MainActivity@67b0a83 in: CREATED
+04-10 07:25:21.551  5761  5761 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.mealsuggestionapp.MainActivity@67b0a83
+04-10 07:25:21.591  5761  5761 D LifecycleMonitor: Lifecycle status change: com.example.mealsuggestionapp.MainActivity@67b0a83 in: STARTED
+04-10 07:25:21.592  5761  5761 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.mealsuggestionapp.MainActivity@67b0a83
+04-10 07:25:21.599  5761  5761 D LifecycleMonitor: Lifecycle status change: com.example.mealsuggestionapp.MainActivity@67b0a83 in: RESUMED
+04-10 07:25:21.600  5761  5761 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.mealsuggestionapp.MainActivity@67b0a83
+04-10 07:25:21.616  5761  5761 W HWUI    : Unknown dataspace 0
+04-10 07:25:21.746   456   556 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10214 pid=0
+04-10 07:25:21.747   456   556 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10214 => denied (3392 us)
+04-10 07:25:21.747   456   553 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10214 pid=5761
+04-10 07:25:21.747   456   553 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10214 => denied (1084 us)
+04-10 07:25:21.748   456   556 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10214 pid=0
+04-10 07:25:21.749   456   556 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10214 => denied (1962 us)
+04-10 07:25:21.749   456   553 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10214 pid=5761
+04-10 07:25:21.749   456   553 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10214 => denied (2194 us)
+04-10 07:25:21.750   456   556 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10214 pid=0
+04-10 07:25:21.750   456   556 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10214 => denied (1242 us)
+04-10 07:25:21.751   456   553 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10214 pid=5761
+04-10 07:25:21.751   456   553 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10214 => denied (1324 us)
+04-10 07:25:21.762  5761  5761 D AutofillManager: notifyViewReadyInner:1073741824
+04-10 07:25:21.773  5761  5778 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-10 07:25:21.778  5761  5778 I EGL_emulation: Opening libGLESv2_emulation.so
+04-10 07:25:21.813  5761  5778 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-10 07:25:21.869   177   177 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+04-10 07:25:21.870  5761  5778 I Gralloc4: mapper 4.x is not supported
+04-10 07:25:22.234  1039  1039 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS
+04-10 07:25:22.352   663   909 W BestClock: java.time.DateTimeException: Missing network time fix
+04-10 07:25:22.353   663   909 W BestClock: java.time.DateTimeException: Missing network time fix
+04-10 07:25:22.354   663   909 W BestClock: java.time.DateTimeException: Missing network time fix
+04-10 07:25:22.356   663   909 W BestClock: java.time.DateTimeException: Missing network time fix
+04-10 07:25:22.360   663   909 W BestClock: java.time.DateTimeException: Missing network time fix
+04-10 07:25:22.517   663   819 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10214 pid=0
+04-10 07:25:22.518   663   819 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10214 => denied (951 us)
+04-10 07:25:22.519   663   819 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10214 pid=0
+04-10 07:25:22.520  5761  5761 I Choreographer: Skipped 50 frames!  The application may be doing too much work on its main thread.
+04-10 07:25:22.520   663   819 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10214 => denied (1085 us)
+04-10 07:25:22.520   663   819 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10214 pid=0
+04-10 07:25:22.522   663   819 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10214 => denied (2072 us)
+04-10 07:25:22.535   663   723 W ziparchive: Unable to open '/data/app/~~FewF-EngOLS15GWy2FRxRQ==/com.example.mealsuggestionapp-AlKJK0ML8iYaHjYroQWPFQ==/base.dm': No such file or directory
+04-10 07:25:22.561   663   723 I ActivityTaskManager: Displayed com.example.mealsuggestionapp/.MainActivity for user 0: +3s76ms
+04-10 07:25:22.663  5761  5773 I HWUI    : Davey! duration=885ms; Flags=1, FrameTimelineVsyncId=29407, IntendedVsync=1375359043170, Vsync=1375359043170, InputEventId=0, HandleInputStart=1375375734900, AnimationStart=1375375839900, PerformTraversalsStart=1375377258700, DrawStart=1375624594700, FrameDeadline=1375375709836, FrameInterval=1375375692000, FrameStartTime=16666666, SyncQueued=1375648430400, SyncStart=1375650558000, IssueDrawCommandsStart=1375654094300, SwapBuffers=1376074175200, FrameCompleted=1376246469300, DequeueBufferDuration=76600, QueueBufferDuration=34787700, GpuCompleted=1376245737200, SwapBuffersCompleted=1376246469300, DisplayPresentTime=-6510615564067364449, CommandSubmissionCompleted=1376074175200,
+04-10 07:25:22.723  5761  5773 I HWUI    : Davey! duration=914ms; Flags=0, FrameTimelineVsyncId=29430, IntendedVsync=1375409043168, Vsync=1376242376468, InputEventId=0, HandleInputStart=1376254902000, AnimationStart=1376254984500, PerformTraversalsStart=1376256924000, DrawStart=1376257468800, FrameDeadline=1376275709800, FrameInterval=1376251980200, FrameStartTime=16666666, SyncQueued=1376259409500, SyncStart=1376259883800, IssueDrawCommandsStart=1376260525700, SwapBuffers=1376265462500, FrameCompleted=1376324449300, DequeueBufferDuration=88100, QueueBufferDuration=1368700, GpuCompleted=1376324092300, SwapBuffersCompleted=1376324449300, DisplayPresentTime=-6005364669401093732, CommandSubmissionCompleted=1376265462500,
+04-10 07:25:22.806   663   876 I ImeTracker: com.example.mealsuggestionapp:dda6b4c0: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-10 07:25:22.807   663   876 I ImeTracker: com.example.mealsuggestionapp:dda6b4c0: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-10 07:25:22.812  2590  2679 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+04-10 07:25:22.813  2590  2679 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+04-10 07:25:22.864  2590  2679 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+04-10 07:25:22.911  1597  1597 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+04-10 07:25:22.973  1597  1597 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+04-10 07:25:22.973  1597  1597 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.mealsuggestionapp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-10 07:25:23.025  2590  2679 I FontLog : Pulling font file for id = 18, cache size = 6 [CONTEXT service_id=132 ]
+04-10 07:25:23.033  1597  1597 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+04-10 07:25:23.063  1597  1597 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+04-10 07:25:23.080   507   559 W IPCThreadState: Sending oneway calls to frozen process.
+04-10 07:25:23.085   393   443 I netd    : tetherGetStats() -> {[]} <3.51ms>
+04-10 07:25:23.093  2590  2679 I FontLog : Pulling font file for id = 18, cache size = 6 [CONTEXT service_id=132 ]
+04-10 07:25:23.138  2827  2881 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@74df41d
+04-10 07:25:23.163   663  1818 W InputManager-JNI: Input channel object 'dabf4d Splash Screen com.example.mealsuggestionapp (client)' was disposed without first being removed with the input manager!
+04-10 07:25:23.174  1453  1453 D BaseDepthController: setSurface:
+04-10 07:25:23.174  1453  1453 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-10 07:25:23.174  1453  1453 D BaseDepthController: 	mSurface: null
+04-10 07:25:23.175  1453  1453 D BaseDepthController: mSurface is null and mCurrentBlur is: 23
+04-10 07:25:23.178  1453  1453 D StatsLog: LAUNCHER_ONSTOP
+04-10 07:25:23.180  1453  2554 D GmsPlayProvider: Shut down the binder channel
+04-10 07:25:23.180  1453  1453 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-10 07:25:23.182  1453  1941 D OneSearchSuggestProvider: Shut down the binder channel
+04-10 07:25:23.419  1597  1597 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():73 initialize...
+04-10 07:25:23.420  1597  1597 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():72 onContentChanged()
+04-10 07:25:23.421  1597  1597 I ContactsDataManager: ContactsDataManager.onContentChanged():159 onContentChanged()
+04-10 07:25:23.422  1597  1597 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():83 initialize...done
+04-10 07:25:23.474  1597  2299 I AndroidSpellCheckerService: AndroidSpellCheckerService.createSession():139 com.google.android.keyboard.client.delight5.LanguageIdentifier@e9d1833 is created
+04-10 07:25:23.514   449   543 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+04-10 07:25:23.520   663   819 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+04-10 07:25:23.536  1453  1864 D EGL_emulation: app_time_stats: avg=678.86ms min=43.09ms max=2992.05ms count=5
+04-10 07:25:23.551  2827  2905 D EGL_emulation: app_time_stats: avg=23494.37ms min=23494.37ms max=23494.37ms count=1
+04-10 07:25:23.656   449   569 D AudioFlinger: mixer(0x7be85ce6e8e0) throttle end: throttle time(2)
+04-10 07:25:23.663  5761  5776 E TestRunner: failed: testButtonClickUpdatesTextView(com.example.mealsuggestionapp.MainActivityTest)
+04-10 07:25:23.672  5761  5776 E TestRunner: ----- begin exception -----
+04-10 07:25:23.672  5761  5776 E TestRunner: org.junit.ComparisonFailure: expected:<[Invalid input! Please enter a valid time of he day.]> but was:<[Breakfast: Eggs]>
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at org.junit.Assert.assertEquals(Assert.java:117)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at org.junit.Assert.assertEquals(Assert.java:146)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at com.example.mealsuggestionapp.MainActivityTest.testButtonClickUpdatesTextView$lambda$0(MainActivityTest.kt:36)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at com.example.mealsuggestionapp.MainActivityTest.$r8$lambda$dbQN1tTT2GuXSQjIsxeOOhPrCdo(Unknown Source:0)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at com.example.mealsuggestionapp.MainActivityTest$$ExternalSyntheticLambda0.perform(Unknown Source:2)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at androidx.test.core.app.ActivityScenario.lambda$onActivity$2$androidx-test-core-app-ActivityScenario(ActivityScenario.java:794)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at androidx.test.core.app.ActivityScenario$$ExternalSyntheticLambda2.run(Unknown Source:4)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2612)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at android.os.Handler.handleCallback(Handler.java:959)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at android.os.Looper.loopOnce(Looper.java:232)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at android.os.Looper.loop(Looper.java:317)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+04-10 07:25:23.672  5761  5776 E TestRunner: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+04-10 07:25:23.706  5761  5776 E TestRunner: ----- end exception -----
+04-10 07:25:23.730  5761  5761 I AssistStructure: Flattened final assist data: 1844 bytes, containing 1 windows, 8 views
+04-10 07:25:23.775  5761  5776 I TestRunner: finished: testButtonClickUpdatesTextView(com.example.mealsuggestionapp.MainActivityTest)
