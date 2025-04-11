@@ -5,6 +5,7 @@ STUDENT NUMBER : ST104923476
 My application is there to helps you as a user decide what to eat based on your preferences and what you will inputs eg."morning" it will output a breakfast meal. 
 
 github code : https://github.com/Dalianmatsika/IMAD-MEAL-ASSIGNMENT.git
+PLEASE MARK THE MASTERS NOT THE MAIN !!
 
 youtube link : https://youtu.be/28j385sjDT0
 
